@@ -1,8 +1,6 @@
 "use client"
-import Modal from '@/components/Cart/Modal'
 import { Button } from '@/components/ui/button'
 import { Dialog } from '@/components/ui/dialog'
-import { toggleModal } from '@/redux/modalSlice'
 import { dataItem, ModalParams } from '@/types'
 import { DialogTrigger } from '@radix-ui/react-dialog'
 import { Check, Ghost, Info } from 'lucide-react'

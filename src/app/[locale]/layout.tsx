@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 export const metadata: Metadata = {
-  title: "Partnership CTF",
-  description: "Best Capture The Flag partnership offer",
+  title: "CTF website",
+  description: "Best Capture The Flag oficial webpage",
 };
 
 export default async function RootLayout({

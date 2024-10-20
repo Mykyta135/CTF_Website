@@ -1,6 +1,6 @@
 import IntroSection from "@/components/Intro/Intro";
 import DescriptionSection from "@/components/Description/Description";
-import Customers from "@/components/Customers/Customers";
+// import Customers from "@/components/Customers/Customers";
 
 import Organizators from "@/components/Organizators/Organizators";
 import Partners from "@/components/Partners/Partners";
@@ -10,9 +10,9 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import MissionVission from "@/components/MissionVission/MissionVission";
 import Registration from "@/components/Registration/Registration";
-import SwiperContainer from "@/components/Swiper/SwiperContainer";
+// import SwiperContainer from "@/components/Swiper/SwiperContainer";
 import CustomSwiper from "@/components/Swiper/SwiperContainer";
-import StartScreen from "@/components/animateReferences/StartScreen";
+// import StartScreen from "@/components/animateReferences/StartScreen";
 
 export default function Home() {
   return (
