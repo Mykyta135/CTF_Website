@@ -26,12 +26,12 @@ export const jeopardyTypes = [
   jeopardyPwn,
 ];
 
-import leobit from "@/public/leobit.svg";
 import softserve from "@/public/softserve.svg";
-import globallogic from "@/public/globallogic.svg";
-import teamvoy from "@/public/teamvoy.svg";
 import sigma from "@/public/sigma.svg";
-import dataart from "@/public/dataart.svg";
+import blackthorm from "@/public/blackthorn.svg";
+import binance from "@/public/binance.svg";
+import underdefence from "@/public/underdefence.png";
+import sombra from "@/public/sombra.svg";
 
 import bestLvivLogo from "@/public/logo.svg";
 
@@ -663,35 +663,35 @@ export const partnersSection = () => {
     heading: t("heading"),
     logos: [
       {
-        image: leobit,
-        width: 123,
+        image: underdefence,
+        width: 250,
         height: 50,
       },
 
       {
         image: softserve,
-        width: 123,
+        width: 250,
         height: 50,
       },
       {
-        image: globallogic,
-        width: 123,
-        height: 50,
+        image: binance,
+        width: 250,
+        height: 20,
       },
       {
-        image: teamvoy,
-        width: 123,
-        height: 50,
+        image: blackthorm,
+        width: 250,
+        height: 20,
       },
 
       {
         image: sigma,
-        width: 123,
+        width: 250,
         height: 50,
       },
       {
-        image: dataart,
-        width: 123,
+        image: sombra,
+        width: 250,
         height: 50,
       },
     ],
