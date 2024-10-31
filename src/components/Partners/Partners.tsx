@@ -8,7 +8,7 @@ const Partners = () => {
     <motion.section
       initial={{ opacity: 0, y: -20 }}
       whileInView={{ opacity: 1, y: 0 }}
-      className="container"
+      className="container overflow-hidden"
     >
       <h2 className="uppercase text-3xl md:text-5xl my-16 text-center">
         {partnersSection().heading}

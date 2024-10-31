@@ -20,13 +20,13 @@ export default function Home() {
       {/* <StartScreen /> */}
       <Header />
       <IntroSection />
-      <main className="flex min-h-screen flex-col space-y-20 items-center justify-between overflow-x-hidden bg-gradient-to-b from-[#101010] to-[#141414]">
+      <main className="flex min-h-screen flex-col space-y-20 items-center justify-between overflow-hidden bg-gradient-to-b from-[#101010] to-[#141414]">
         <DescriptionSection />
         <MissionVission />
         <ForPartners />
         <Why />
         <Registration />
-      
+
         <CustomSwiper />
         <Organizators />
         <Partners />

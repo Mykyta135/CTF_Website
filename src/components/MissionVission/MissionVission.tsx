@@ -2,16 +2,14 @@
 
 import React from "react";
 
-import useSmoothScrollTo from "@/hooks/useSmoothScrollTo";
+
 import mission from "@/public/mission.svg";
 import vission from "@/public/vission.svg";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import rect from "@/public/rect.svg";
-import { useTranslations } from "next-intl";
+
 export default function MissionVission() {
-  const handleScrollClick = useSmoothScrollTo();
-  const t = useTranslations("intro");
+
   return (
     <section id="mission-vission" className="container">
       <motion.div
@@ -21,7 +19,7 @@ export default function MissionVission() {
       >
         <Block
           title="Місія"
-          text="Підвищення зацікавленості студентів у галузі кібербезпеки"
+          text="Підвищити зацікавленість студентів у галузі кібербезпеки"
           image={mission}
         />
         <Block

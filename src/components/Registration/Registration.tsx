@@ -2,18 +2,15 @@
 
 import React from "react";
 
-import { introSection } from "../../app/(_content)/_content";
-import useSmoothScrollTo from "@/hooks/useSmoothScrollTo";
-import heroBg from "@/public/heroBg.jpg";
+
 import arrow from "@/public/arrow-intro.svg";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import rect from "@/public/rect.svg";
-import { useTranslations } from "next-intl";
+
 import hacker_red from "@/public/hacker-red.svg";
 export default function Registration() {
-  const handleScrollClick = useSmoothScrollTo();
-  const t = useTranslations("intro");
+
   return (
     <section id="registration" className="container">
       <motion.h2 className="text-center text-4xl">

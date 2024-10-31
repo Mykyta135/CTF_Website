@@ -8,7 +8,7 @@ import { XIcon } from "lucide-react";
 
 import Logo from "@/public/logo.svg";
 import Image from "next/image";
-import { useTranslations } from "next-intl";
+
 interface drawerProps {
   setMobileMenuOpen: (open: boolean) => void;
   mobileMenuOpen: boolean;
@@ -42,7 +42,7 @@ export default function Drawer({
       document.body.style.overflow = "auto";
     };
   }, [mobileMenuOpen]);
-  const t = useTranslations("intro");
+
   return (
 
 

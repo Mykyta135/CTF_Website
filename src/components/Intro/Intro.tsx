@@ -9,10 +9,9 @@ import arrow from "@/public/arrow-intro.svg";
 import rect from "@/public/rect.svg";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { useTranslations } from "next-intl";
+
 export default function IntroSection() {
-  const handleScrollClick = useSmoothScrollTo();
-  const t = useTranslations("intro");
+
   return (
     <section
       id="top"
@@ -31,13 +30,13 @@ export default function IntroSection() {
         className="container flex flex-col items-center justify-center text-center "
       >
         <motion.h3 className="uppercase text-xl md:text-2xl font-semibold tracking-wider mb-2">
-          {t("date")}
+          {introSection().description}
         </motion.h3>
         <h2 className="text-5xl md:text-7xl lg:text-8xl      mb-4">
           {introSection().title}
         </h2>
         <p className="text-base md:text-xl mt-4 md:mt-8 mb-6 px-4 md:px-0">
-          {t("subtitle")}
+          {introSection().term}
         </p>
         <a
           href="https://t.me/best_ctf2_bot"
@@ -45,7 +44,7 @@ export default function IntroSection() {
         >
           <Image src={rect} alt="button"></Image>
           <span className="w-full absolute h-full top-4  left-1/2 -translate-x-1/2 font-semibold text-lg">
-            {t("button")}{" "}
+            Зареєструватися
           </span>
           <Image
             src={arrow}
