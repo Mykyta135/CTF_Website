@@ -30,6 +30,7 @@ import blackthorm from "@/public/blackthorn.png";
 import binance from "@/public/binance.svg";
 import underdefence from "@/public/underdefence.png";
 import sombra from "@/public/sombra.svg";
+import volia from "@/public/volia.svg";
 
 import bestLvivLogo from "@/public/logo.svg";
 
@@ -209,6 +210,10 @@ export const partnersSection = () => {
       },
       {
         image: sombra,
+        width: 250,
+        height: 50,
+      },{
+        image: volia,
         width: 250,
         height: 50,
       },

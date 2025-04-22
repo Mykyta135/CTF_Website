@@ -13,7 +13,7 @@ const Partners = () => {
       <h2 className="uppercase text-3xl md:text-5xl my-16 text-center">
         {partnersSection().heading}
       </h2>
-      <ul className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1  gap-20 flex-wrap justify-items-center items-center p-5 rounded-md">
+      <ul className="flex  gap-20 flex-wrap justify-center justify-items-center items-center p-5 rounded-md">
         {partnersSection().logos.map((partner, index) => (
           <li className="content-center" key={index}>
             <Image
