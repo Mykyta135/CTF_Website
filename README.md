@@ -1,3 +1,5 @@
+<img src=".github/cover.png" alt="CTF_Website" width="100%">
+
 # CTF_Website
 
 The website for **BEST::CTF 2024**, the first offline CTF in Lviv, organised by BEST Lviv. It's a single landing page in Ukrainian: what the event is, why to take part, partners and organisers, and how to register. Registration and team search run through the event's Telegram bot ([CTF_Bot](https://github.com/Mykyta135/CTF_Bot)), so the site sends people there.
